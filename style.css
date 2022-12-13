@@ -77,10 +77,84 @@ body{
 
 }
 
-.quote-container{
-    background-color: #E5E7EB;
+/*Info styles*/
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 100px 0;
 }
 
-.footer-container{
-    background-color: #3882F6;
+.content-card-container{
+    display: flex;
+    
 }
+.card{
+    margin: 0 20px 0 20px;
+}
+
+.box{
+    height: 200px;
+    border: #3882F6 solid 5px;
+    border-radius: 8px;
+}
+
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote-text-container{
+    margin: 100px 0 100px 0;
+    max-width: 60%;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+.cta-block{
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 70%;
+    padding: 40px 70px 10px 50px;
+    color: white;
+
+
+}
+
+.cta-block-inner{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    line-height: 0;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: right;
+    transform: translateY(-50px);
+}
+
+.cta-cta{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    border: 2px solid white;
+    font-family: 'Roboto';
